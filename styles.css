@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Oswald&family=Raleway:wght@500&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Oswald:wght@500&family=Raleway:wght@500&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Lato:wght@700&family=Oswald:wght@600&family=Raleway:wght@500&family=Work+Sans:wght@500&display=swap');
+
+
+
+body{
+  background-color: #c2e07b;
+}
+table{
+ background-color: rgb(31, 120, 197);
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ box-shadow: 2px 2px 4px 4px rgb(141, 7, 7);
+ border-bottom: 2px solid rgb(61, 37, 37) ;
+}
+th{
+  background-color: rgb(255, 36, 36);
+  text-align: center;
+  padding: 10px;
+  border-collapse: collapse;
+  border-color: rgb(226, 14, 14);
+  color: rgb(18, 27, 24);
+}
+
+table,td{
+ border-collapse: collapse;
+ padding: 15px;
+}
+
+#caption::after {
+  content: "\1F4D3"; 
+  font-size: larger;
+  margin-right: 10px;
+}
+
+#kalvium{
+  justify-content: flex-end;
+  width:350px;
+  padding-top:20px;
+}
+
+#caption{
+  font-family: 'Kalam', cursive;
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+#lunch{
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+}
+#student{
+  padding-right: 19%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-top: 60px;
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  color: rgb(19, 16, 207);
+}
+#courses{
+  padding-right: 10%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-top: 70px;
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  color: rgb(14, 83, 80);
+}
+#profile{
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  width: 70px;
+  margin-top: 50px;
+  padding-right: 25%;
+
+}
+
+tr:nth-of-type(even){
+  background-color: rgb(185, 164, 164);
+}
+tr:nth-of-type(odd){
+  background-color: rgb(136, 120, 120) ;
+}
